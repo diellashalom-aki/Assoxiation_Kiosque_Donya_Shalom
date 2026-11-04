@@ -1,11 +1,61 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="fr">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Le Kiosque organise soirées, ateliers et repas pour les étudiants.">
+  <title>Le Kiosque — association étudiante</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:wght@600;800&family=DM+Sans:wght@400;600&display=swap">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/accueil.css">
 </head>
 <body>
-    
+<header class="site-header">
+  <a class="logo" href="index.html">Le Kiosque</a>
+  <button class="nav-toggle" aria-expanded="false" aria-controls="menu">Menu</button>
+  <nav class="nav" aria-label="Navigation principale">
+    <ul id="menu">
+      <li><a href="index.html#association">L'association</a></li>
+      <li><a href="index.html#activites">Activités</a></li>
+      <li><a href="evenements.html">Événements</a></li>
+      <li><a href="inscription.html">S'inscrire</a></li>
+    </ul>
+  </nav>
+</header>
+<main class="conteneur">
+  <div class="hero">
+    <div>
+      <h1>On organise. Vous venez.</h1>
+      <p>Le Kiosque est l'association étudiante qui remplit votre agenda : soirées, ateliers, repas, tournois. Tout le monde peut participer, que l'on soit en première année ou en dernière.</p>
+      <p><a class="bouton" href="evenements.html">Voir les événements</a></p>
+    </div>
+    <aside class="billet" aria-label="Prochain événement">
+      <h2>Nuit du Hackathon</h2>
+      <p>Samedi 21 novembre 2026, 18 h<br>Espace Vie Étudiante, salle B204</p>
+      <a class="bouton" href="inscription.html?evenement=hackathon">Réserver ma place</a>
+    </aside>
+  </div>
+  <section id="association" class="apropos">
+    <h2>L'association</h2>
+    <p>Née d'un groupe d'amis qui voulaient un vrai lieu de rencontre sur le campus, Le Kiosque réunit aujourd'hui une quarantaine de bénévoles. Notre idée est simple : un événement doit être gratuit ou presque, ouvert à tous et organisé par des étudiants pour des étudiants.</p>
+  </section>
+  <section id="activites">
+    <h2>Ce que nous faisons</h2>
+    <div class="activites">
+      <article><h3>Rencontres</h3><p>Repas du monde, tournois et soirées jeux pour faire connaissance hors des cours.</p></article>
+      <article><h3>Culture</h3><p>Ciné-club, débats et scène ouverte, avec des choix faits par les adhérents.</p></article>
+      <article><h3>Technique</h3><p>Hackathons et ateliers pour apprendre en faisant, avec des anciens comme mentors.</p></article>
+    </div>
+  </section>
+  <section class="contact">
+    <h2>Nous écrire</h2>
+    <p>Une idée, une question ? <a href="mailto:contact@lekiosque.example">contact@lekiosque.example</a></p>
+  </section>
+</main>
+<footer class="site-footer">
+  <p>© 2026 Le Kiosque, association étudiante — Version 1.0.1</p>
+</footer>
+<script src="js/main.js"></script>
 </body>
 </html>
