@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Le calendrier des prochains événements du Kiosque.">
+  <title>Événements — Le Kiosque</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:wght@600;800&family=DM+Sans:wght@400;600&display=swap">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/evenements.css">
+</head>
+<body>
+<header class="site-header">
+  <a class="logo" href="index.html">Le Kiosque</a>
+  <button class="nav-toggle" aria-expanded="false" aria-controls="menu">Menu</button>
+  <nav class="nav" aria-label="Navigation principale">
+    <ul id="menu">
+      <li><a href="index.html#association">L'association</a></li>
+      <li><a href="index.html#activites">Activités</a></li>
+      <li><a href="evenements.html">Événements</a></li>
+      <li><a href="inscription.html">S'inscrire</a></li>
+    </ul>
+  </nav>
+</header>
+<main class="conteneur">
+  <h1>Les événements à venir</h1>
+  <div class="cartes">
+    <article class="carte">
+      <h2>Nuit du Hackathon</h2>
+      <p class="infos"><time datetime="2026-11-21">21 novembre 2026, 18 h</time><br>Espace Vie Étudiante, salle B204</p>
+      <p>Douze heures pour imaginer, coder et présenter un prototype en équipe de quatre. Pizzas et café fournis.</p>
+      <a class="bouton" href="inscription.html?evenement=hackathon">S'inscrire</a>
+    </article>
+    <article class="carte">
+      <h2>Ciné-club d'hiver</h2>
+      <p class="infos"><time datetime="2026-11-28">28 novembre 2026, 19 h 30</time><br>Amphithéâtre 3</p>
+      <p>Projection suivie d'un débat animé par les étudiants. Le film est choisi par vote sur notre Instagram.</p>
+      <a class="bouton" href="inscription.html?evenement=cine-club">S'inscrire</a>
+    </article>
+    <article class="carte">
+      <h2>Repas du monde</h2>
+      <p class="infos"><time datetime="2026-12-05">5 décembre 2026, 12 h</time><br>Foyer étudiant</p>
+      <p>Chacun cuisine un plat de chez lui ou de chez sa grand-mère. On goûte, on échange les recettes.</p>
+      <a class="bouton" href="inscription.html?evenement=repas-du-monde">S'inscrire</a>
+    </article>
+    <article class="carte">
+      <h2>Tournoi de jeux de société</h2>
+      <p class="infos"><time datetime="2026-12-12">12 décembre 2026, 14 h</time><br>Salle de convivialité, bâtiment A</p>
+      <p>Catan, Dixit, Skyjo et bien d'autres. Débutants bienvenus, lots pour les trois premières tables.</p>
+      <a class="bouton" href="inscription.html?evenement=jeux">S'inscrire</a>
+    </article>
+  </div>
+</main>
+<footer class="site-footer">
+  <p>© 2026 Le Kiosque, association étudiante — Version 1.0.1</p>
+</footer>
+<script src="js/main.js"></script>
+</body>
+</html>
