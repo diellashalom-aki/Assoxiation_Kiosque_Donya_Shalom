@@ -5,16 +5,10 @@ Site HTML/CSS/JS d'une association étudiante qui organise des événements (hac
 ## Identification des membres
 
 | Pseudonyme GitHub | Nom | Prénom | Rôle |
-|---|---|---|---|
-
-| @PSEUDO_DIELLA | AKIMANA | Diella Shalom | Étudiant 1 |
-| @PSEUDO_DONYA | EL HAMDANI | Donya | Étudiant 2 |
-
 | @diellashalom-aki | AKIMANA | Diella Shalom | Étudiant 1 |
 | @Kagezukii | EL HAMDANI | Donya | Étudiant 2 |
 
-
-- Dépôt : https://github.com/PSEUDO/lekiosque
+- Dépôt : https://github.com/diellashalom-aki/Assoxiation_Kiosque_Donya_Shalom.git
 - GitHub Project : https://github.com/users/PSEUDO/projects/N
 
 ## Fonctionnalités et responsabilités
