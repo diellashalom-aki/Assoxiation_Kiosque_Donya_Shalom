@@ -36,7 +36,7 @@ h1, h2, h3 { font-family: var(--police-titre); line-height: 1.1; letter-spacing:
 .bouton:hover, .bouton:focus-visible { background: var(--couleur-principale); color: #fff; }
 .logo { font-family: var(--police-titre); font-size: 1.4rem; font-weight: 800; }
 .site-footer { padding: 2rem; text-align: center; background: #eee; }
-/* Responsive */
+
 @media (max-width: 48rem) {
   .nav-toggle { display: inline-block; background: none; color: inherit; border: 2px solid currentColor; border-radius: 6px; padding: 0.4rem 0.8rem; font: inherit; }
   .nav { width: 100%; }
