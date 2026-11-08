@@ -91,3 +91,32 @@ Les Issues décrivent le travail et ses critères de réalisation, avec un respo
 
 **8. Comment retrouver l'origine d'une modification dans l'historique GitHub ? (Donya)**
 Avec `git blame` ou le bouton « Blame » d'un fichier, on voit le dernier commit de chaque ligne. Ce commit mène à sa Pull Request, donc à l'Issue, aux revues et à l'auteur. `git log -p -- fichier` donne l'historique complet.
+
+
+
+## Conflit Git
+
+### Branches concernées
+- feature/adaptation-mobile
+- feature/identite-visuelle
+
+### Fichier concerné
+- css/style.css
+
+### Origine du conflit
+Le conflit est apparu lors de la fusion de la branche feature/identite-visuelle avec develop. Les deux branches modifiaient une zone proche dans le fichier style.css, juste avant le bloc @media utilisé pour l'adaptation mobile.
+
+### Résolution
+Nous avons conservé :
+- les couleurs, le logo et le pied de page de l'identité visuelle ;
+- les règles responsive du bloc @media développées pour l'adaptation mobile.
+
+Le logo a été ajusté afin de rester lisible sur l'en-tête bleu.
+
+### Résultat
+Le site conserve à la fois :
+- la nouvelle identité visuelle ;
+- le comportement responsive sur mobile.
+
+Des tests ont été réalisés sur écran large et écran étroit afin de vérifier le bon fonctionnement de la navigation et l'affichage du logo.
+
