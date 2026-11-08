@@ -8,7 +8,7 @@ Site HTML/CSS/JS d'une association étudiante qui organise des événements (hac
 | @diellashalom-aki | AKIMANA | Diella Shalom | Étudiant 1 |
 | @Kagezukii | EL HAMDANI | Donya | Étudiant 2 |
 
-- Dépôt : https://github.com/diellashalom-aki/Assoxiation_Kiosque_Donya_Shalom.git
+- Dépôt : https://github.com/diellashalom-aki/Assoxiation_Kiosque_Donya_Shalom
 - GitHub Project : https://github.com/users/PSEUDO/projects/N
 
 ## Fonctionnalités et responsabilités
