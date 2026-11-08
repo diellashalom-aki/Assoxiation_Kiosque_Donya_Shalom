@@ -5,6 +5,7 @@ Site HTML/CSS/JS d'une association étudiante qui organise des événements (hac
 ## Identification des membres
 
 | Pseudonyme GitHub | Nom | Prénom | Rôle |
+|---|---|---|---|
 | @diellashalom-aki | AKIMANA | Diella Shalom | Étudiant 1 |
 | @Kagezukii | EL HAMDANI | Donya | Étudiant 2 |
 
