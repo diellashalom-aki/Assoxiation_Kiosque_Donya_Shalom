@@ -1,0 +1,8 @@
+.cartes { display: grid; grid-template-columns: repeat(auto-fill, minmax(min(100%, 18rem), 1fr)); gap: 1.5rem; }
+.carte { border: 2px solid var(--couleur-accent); padding: 1.25rem; border-radius: 6px; background: #fff; }
+.cartes > * { min-width: 0; overflow-wrap: anywhere; }
+.carte h2 { margin-top: 0; }
+.infos { font-weight: 600; }
+.formulaire { display: grid; gap: 1rem; max-width: 28rem; }
+.formulaire label { display: grid; gap: 0.3rem; font-weight: 600; }
+.formulaire input, .formulaire select { padding: 0.6rem; font: inherit; }

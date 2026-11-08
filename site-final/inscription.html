@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Inscrivez-vous aux événements du Kiosque.">
+  <title>Inscription — Le Kiosque</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:wght@600;800&family=DM+Sans:wght@400;600&display=swap">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/evenements.css">
+</head>
+<body>
+<header class="site-header">
+  <a class="logo" href="index.html">Le Kiosque</a>
+  <button class="nav-toggle" aria-expanded="false" aria-controls="menu">Menu</button>
+  <nav class="nav" aria-label="Navigation principale">
+    <ul id="menu">
+      <li><a href="index.html#association">L'association</a></li>
+      <li><a href="index.html#activites">Activités</a></li>
+      <li><a href="evenements.html">Événements</a></li>
+      <li><a href="inscription.html">S'inscrire</a></li>
+    </ul>
+  </nav>
+</header>
+<main class="conteneur">
+  <h1>S'inscrire à un événement</h1>
+  <form id="form-inscription" class="formulaire">
+    <label>Nom et prénom <input type="text" name="nom" required></label>
+    <label>Adresse e-mail <input type="email" name="email" required></label>
+    <label>Événement
+      <select name="evenement" id="evenement" required>
+        <option value="hackathon">Nuit du Hackathon</option>
+        <option value="cine-club">Ciné-club d'hiver</option>
+        <option value="repas-du-monde">Repas du monde</option>
+        <option value="jeux">Tournoi de jeux de société</option>
+      </select>
+    </label>
+    <button class="bouton" type="submit">Valider mon inscription</button>
+  </form>
+  <p id="confirmation" role="status" hidden></p>
+</main>
+<footer class="site-footer">
+  <p>© 2026 Le Kiosque, association étudiante — Version 1.0.1</p>
+</footer>
+<script src="js/main.js"></script>
+<script src="js/inscription.js"></script>
+</body>
+</html>
