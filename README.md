@@ -13,16 +13,16 @@ Site HTML/CSS/JS d'une association étudiante qui organise des événements (hac
 
 ## Fonctionnalités et responsabilités
 
-| Fonctionnalité | Responsable | Branche | Issue / PR |
-|---|---|---|---|
-| A. Présentation et navigation (accueil, association, activités, contact) | Diella | `feature/presentation-navigation` | #… / #… |
-| B. Catalogue d'événements (4 événements, formulaire d'inscription) | Donya | `feature/catalogue-evenements` | #… / #… |
-| Amélioration A : identité visuelle | Diella | `feature/identite-visuelle` | #… / #… |
-| Amélioration B : adaptation mobile | Donya | `feature/adaptation-mobile` | #… / #… |
-| Correction des cartes qui débordent | Diella | `bugfix/debordement-cartes-mobile` | #… / #… |
-| Préparation de la v1.0 | Diella (PR approuvée et tag par Donya) | `release/1.0` | #… / #… |
-| Hotfix du lien Événements | Donya (PR approuvée et tag par Diella) | `hotfix/lien-evenements` | #… / #… |
-| Résolution du conflit | Les deux | `feature/adaptation-mobile` | #… |
+| Fonctionnalité | Responsable | Branche | 
+|---|---|---|
+| A. Présentation et navigation (accueil, association, activités, contact) | Diella | `feature/presentation-navigation` |
+| B. Catalogue d'événements (4 événements, formulaire d'inscription) | Donya | `feature/catalogue-evenements` |
+| Amélioration A : identité visuelle | Diella | `feature/identite-visuelle` |
+| Amélioration B : adaptation mobile | Donya | `feature/adaptation-mobile` |
+| Correction des cartes qui débordent | Diella | `bugfix/debordement-cartes-mobile` |
+| Préparation de la v1.0 | Diella (PR approuvée et tag par Donya) | `release/1.0` |
+| Hotfix du lien Événements | Donya (PR approuvée et tag par Diella) | `hotfix/lien-evenements` |
+| Résolution du conflit | Les deux | `feature/adaptation-mobile` |
 
 Pages : `index.html`, `evenements.html`, `inscription.html`. Styles dans `css/`, scripts dans `js/`.
 
